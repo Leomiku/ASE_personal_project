@@ -1,0 +1,8 @@
+﻿  Canvas.cpp
+D:\code\BUAA\software_engineer\ASE_personal_project\src\Canvas.cpp(16,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\BUAA\software_engineer\ASE_personal_project\src\Canvas.cpp(29,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\BUAA\software_engineer\ASE_personal_project\src\Canvas.cpp(39,32): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  Point.cpp
+  main.cpp
+  正在生成代码...
+  ASE_personal_project.vcxproj -> D:\code\BUAA\software_engineer\ASE_personal_project\ASE_personal_project\x64\Debug\ASE_personal_project.exe

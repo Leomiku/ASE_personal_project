@@ -1,0 +1,15 @@
+﻿  IO_class.cpp
+  main.cpp
+  正在编译...
+  正在生成代码
+  1 of 468 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    11 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  ASE_personal_project.vcxproj -> D:\code\BUAA\software_engineer\ASE_personal_project\ASE_personal_project\x64\Release\ASE_personal_project.exe
+D:\code\BUAA\software_engineer\ASE_personal_project\src\Line.cpp(8): warning C26495: 未初始化变量 Line::A。始终初始化成员变量(type.6)。
+D:\code\BUAA\software_engineer\ASE_personal_project\src\Line.cpp(53): warning C26451: 算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。
+D:\code\BUAA\software_engineer\ASE_personal_project\src\Line.cpp(53): warning C26451: 算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。
+D:\code\BUAA\software_engineer\ASE_personal_project\src\Line.cpp(55): warning C26451: 算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。
+D:\code\BUAA\software_engineer\ASE_personal_project\src\Line.cpp(55): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+D:\code\BUAA\software_engineer\ASE_personal_project\src\Line.cpp(55): warning C26451: 算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。
