@@ -13,5 +13,15 @@ Point::~Point()
 
 bool Point::operator==(const Point& other) const
 {
-    return (abs(first - other.first) < eps && abs(second - other.second) < eps);
+    return (fequal(first, other.first) && fequal(second, other.second));
+}
+
+inline Point Point::operator-(const Point& other) const
+{
+    return Point(first - other.first, second - other.second);
+}
+
+inline Point Point::operator+(const Point& other) const
+{
+    return Point(first + other.first, second + other.second);
 }

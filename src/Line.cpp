@@ -5,18 +5,23 @@
 #define x_2 number[2]
 #define y_2 number[3]
 
-Line::Line() {}
+Line::Line() 
+{
+    A = 0;
+    B = 0;
+    C = 0;
+}
 
 Line::Line(string &s)
 {
     // x_1 : 0, y_1 : 1. x_2 : 2, y_2 : 3
     int number[4];
-    int begin = -1, stt = -1, n = s.length();
-    size_t i;
+    int begin = -1, stt = -1, n = (int) s.length();
+    int i;
     for (i = 0; i < n; i++)
     {
         begin = begin;
-        if (isdigit(s[i]) && begin == -1)
+        if ((isdigit(s[i]) || s[i] == '-') && begin == -1)
         {
             begin = i;
         }
@@ -25,7 +30,7 @@ Line::Line(string &s)
             stt++;
             if (stt < 4)
             {
-                number[stt] = stoi(s.substr(begin, i - begin));
+                number[stt] = stoi(s.substr(begin, (long long)i - begin));
             }
             else
             {
@@ -37,7 +42,7 @@ Line::Line(string &s)
     if (begin != -1)
     {
         stt++;
-        number[stt] = stoi(s.substr(begin, i - begin));
+        number[stt] = stoi(s.substr(begin, (long long)i - begin));
     }
     if (stt < 3)
     {
@@ -57,9 +62,9 @@ Line::Line(string &s)
     }
     else
     {
-        A = (double)(y_1 - y_2) / (x_1 - x_2);
+        A = (double)((long long)y_1 - y_2) / ((long long)x_1 - x_2);
         B = -1;
-        C = (double)(x_1 * y_2 - x_2 * y_1) / (x_1 - x_2);
+        C = (double)((long long)x_1 * y_2 - x_2 * y_1) / ((long long)x_1 - x_2);
     }
 }
 

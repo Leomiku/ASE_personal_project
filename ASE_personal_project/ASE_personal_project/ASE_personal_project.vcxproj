@@ -161,8 +161,10 @@
   <ItemGroup>
     <ClInclude Include="..\..\src\Canvas.h" />
     <ClInclude Include="..\..\src\Circle.h" />
+    <ClInclude Include="..\..\src\float_deal.h" />
     <ClInclude Include="..\..\src\IO_class.h" />
     <ClInclude Include="..\..\src\Line.h" />
+    <ClInclude Include="..\..\src\main.h" />
     <ClInclude Include="..\..\src\Point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

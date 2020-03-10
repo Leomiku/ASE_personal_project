@@ -41,7 +41,7 @@ vector<string> *IO_class::read()
 	return &all_geometry_string;
 }
 
-void IO_class::write(int n)
+void IO_class::write(size_t n)
 {
 	out << n << endl;
 }

@@ -19,7 +19,7 @@ public:
 	IO_class(int argc, char* argv[]);
 	~IO_class();
 	vector<string>* read();
-	void write(int n);
+	void write(size_t n);
 
 private:
 	string in_path;

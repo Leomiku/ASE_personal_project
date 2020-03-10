@@ -4,11 +4,11 @@ Circle::Circle(string &s)
 {
     // x_1 : 0, y_0 : 1. r : 2
     int number[3];
-    int begin = -1, stt = -1, n = s.length();
-    size_t i;
+    int begin = -1, stt = -1, n = (int) s.length();
+    int i;
     for (i = 0; i < n; i++)
     {
-        if (isdigit(s[i]) && begin == -1)
+        if ((isdigit(s[i]) || s[i] == '-') && begin == -1)
         {
             begin = i;
         }
@@ -17,7 +17,7 @@ Circle::Circle(string &s)
             stt++;
             if (stt < 3)
             {
-                number[stt] = stoi(s.substr(begin, i - begin));
+                number[stt] = stoi(s.substr(begin, (long long)i - begin));
             }
             else
             {
@@ -29,7 +29,7 @@ Circle::Circle(string &s)
     if (begin != -1)
     {
         stt++;
-        number[stt] = stoi(s.substr(begin, i - begin));
+        number[stt] = stoi(s.substr(begin, (long long)i - begin));
     }
     if (stt < 2)
     {

@@ -35,20 +35,26 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\src\IO_class.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\src\Point.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\src\Line.h">
-      <Filter>源文件</Filter>
+    <ClInclude Include="..\..\src\Canvas.h">
+      <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\Circle.h">
-      <Filter>源文件</Filter>
+      <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\src\Canvas.h">
-      <Filter>源文件</Filter>
+    <ClInclude Include="..\..\src\float_deal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\IO_class.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Line.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
