@@ -1,7 +1,0 @@
-[
-  {
-    "directory": "D:\\code\\BUAA\\software_engineer\\ASE_personal_project\\ASE_personal_project\\ASE_personal_project",
-    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/Zi \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Oy- \/D CODE_ANALYSIS \/D WIN32 \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MD \/GS \/Gy \/fp:precise \/permissive- \/Fo\"Release\\\\\" \/Gd \/TP   \"D:\\code\\BUAA\\software_engineer\\ASE_personal_project\\src\\main.cpp\"",
-    "file": "D:\\code\\BUAA\\software_engineer\\ASE_personal_project\\src\\main.cpp"
-  }
-]
